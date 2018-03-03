@@ -20,13 +20,13 @@ following [Stackoverflow](https://stackoverflow.com/questions/6587507/how-to-ins
 13. `sudo apt-get install tmux`
 
 ## Usage
-1. ssh hduser@192.168.0.110
-2. enter Password
-3. tmux
-4. python3 quickstart.py
-5. press C-b d (press Controll & b together then press d, detaches buffer so that process is not killed while closing ssh connection)
-6. exit
+1. `ssh hduser@192.168.0.110`
+2. `enter Password`
+3. `tmux`
+4. `python3 quickstart.py`
+5. `press C-b d (press Controll & b together then press d, detaches buffer so that process is not killed while closing ssh connection)`
+6. `exit`
 
 ## Further Usage
-- tmux ls (list of all detached windows)
-- tmux attach -t 0 (opens detached window) 
+- `tmux ls` (list of all detached windows)
+- `tmux attach -t 0` (opens detached window) 
