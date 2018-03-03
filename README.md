@@ -2,6 +2,8 @@
 
 # InstaPy for Alda
 This is a Fork of [InstaPy](https://github.com/timgrossmann/InstaPy) for usage on a **Raspberry Pi 3**.
+The only file that I modified is **quickstart.py**. To install the **chromium-browser** and the **chromedriver**. The chromedriver binary has to be located in the `./assets` folder (a Raspberry Pi 3 compatible build is already included!
+If you want to use the code on a different OS then you have to find a different chromedriver. This hazzle is due to `Selenium`.).
 
 ## Install
 following [Stackoverflow](https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3) & [InstaPy for Raspberry Pi](https://github.com/timgrossmann/InstaPy/blob/master/docs/How_to_Raspberry.md)
