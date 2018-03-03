@@ -5,8 +5,7 @@ This is a Fork of [InstaPy](https://github.com/timgrossmann/InstaPy) for usage o
 
 ## Install
 following [Stackoverflow](https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3) & [InstaPy for Raspberry Pi](https://github.com/timgrossmann/InstaPy/blob/master/docs/How_to_Raspberry.md)
-```
-1. sudo apt-get update
+1. `sudo apt-get update`
 2. sudo apt-get python3-pip 
 3. sudo apt-get python34-setuptools (Stackoverflow)
 4. sudo easy_install pip
@@ -19,7 +18,6 @@ following [Stackoverflow](https://stackoverflow.com/questions/6587507/how-to-ins
 11. unzip chromedriver_linux32.zip -d chromedriver
 12. mv ./chromedriver/chromedriver ./assets/chromedriver (move into ./assets/ folder of InstaPy!)
 13. sudo apt-get install tmux
-```
 
 ## Usage
 1. ssh hduser@192.168.0.110
